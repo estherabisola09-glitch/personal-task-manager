@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# App data (personal tasks, backups, temp saves)
+tasks.json
+tasks.json.bak
+tasks.json.tmp
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
