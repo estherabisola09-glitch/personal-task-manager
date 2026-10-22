@@ -38,8 +38,9 @@ def save_tasks(tasks, filename=DATA_FILE):
     except OSError as error:
         print(f"Error: could not save tasks ({error}). Your original file is untouched.")
         return False
-    
-    def get_next_id(tasks):
+
+
+def get_next_id(tasks):
     """New id = highest id + 1, so deleted ids are never reused."""
     if not tasks:
         return 1
